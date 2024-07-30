@@ -1,0 +1,44 @@
+@use "../../foundation/variable" as v;
+
+.c-news {
+margin-top: 80px;
+  background-color: rgb(255 255 255 / 95%);
+  height: 80px;
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+
+    p{
+      border-right: 1px solid v.$color-font-blue;
+      padding-right: 24px;
+
+    }
+  }
+
+  &__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #2D2D2D;
+  }
+
+
+  &__head {
+    color: v.$color-font-blue ;
+    font-size: 22px;
+  }
+
+  &__date{
+    margin-right: 32px;
+  }
+
+  &__title {
+
+      text-decoration: underline;
+  }
+
+
+}

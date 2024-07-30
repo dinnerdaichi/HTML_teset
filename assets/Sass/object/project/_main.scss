@@ -1,0 +1,48 @@
+@use "../../foundation/variable" as v;
+
+.p-main{
+  position: relative;
+  height: 755px;
+  background-image: url(/assets/img/main.jpg);
+  background-size: cover;
+  background-position: center -80px;
+
+  padding: 180px 0px 107px 113px;
+
+
+&__text-main{
+  font-size: 60px;
+  color: v.$color-font-blue;
+  width: 921px;
+
+  p{
+  background-color: #fff;
+  padding: 6px 15px 20px;
+  letter-spacing: 0.24em;
+  line-height: 1em;
+
+}
+
+p:last-child{
+  margin-top: 8px;
+  letter-spacing: 0.04em;
+}
+
+}
+
+&__text-sub{
+  background-color: #fff;
+  font-size: 18px;
+  letter-spacing: 0.08em;
+  padding: 11px 22px 15px 16px;
+  margin-top: 25px;
+  width: 347px;
+  color: v.$color-font-blue;
+
+}
+
+
+
+
+
+}

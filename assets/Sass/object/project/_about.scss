@@ -1,0 +1,29 @@
+@use "../../foundation/variable" as v;
+
+
+.p-about{
+  height: 1278px;
+  padding: 0  113px  ;
+
+
+
+
+
+
+&__price{
+
+
+  &__price-img{
+    width: 475px;
+  }
+
+
+  &-content{
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
+
+}

@@ -1,0 +1,68 @@
+@use "../../foundation/variable" as v;
+
+
+.c-contact{
+
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: 560px;
+  align-items: center;
+  margin-top: 84px;
+
+  a{
+
+    color: #fff;
+  }
+
+  &__tel{
+    background-color: v.$bgc-blue;
+    width: 240px;
+    height: 56px;
+    padding-top: 3px;
+
+    &-icon{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img{
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+      }
+
+
+      p{
+        font-size: 24px;
+        color: #fff;
+
+      }
+
+      span{
+        font-size: 16px;
+      }
+    }
+  }
+
+
+  &__link{
+    display: flex;
+    justify-content: center;
+    width: 240px;
+    height: 56px;
+    background-color: v.$contact-button;
+    align-items: center;
+    padding: 15px 50px;
+
+
+    span{
+      margin-right: 16px;
+    }
+
+    img{
+      width: 5px;
+      height: 10px;
+    }
+  }
+}
