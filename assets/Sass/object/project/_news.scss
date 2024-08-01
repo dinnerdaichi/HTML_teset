@@ -1,0 +1,43 @@
+@use "../../foundation/variable" as v;
+
+
+.news{
+  padding: 80px 208px 27px;
+margin-top: 91px;
+  width: 100%;
+  background-image: url(/assets/img/news-bg.png);
+  background-size: cover;
+
+}
+
+.news__item{
+  background-color: #fff;
+  padding: 25px 95px 55px;
+  margin: 0 auto;
+}
+
+.news .c-news{
+  margin-top: 0;
+  height: auto;
+}
+
+.news .c-news__content{
+  justify-content: center;
+  width: 100%;
+}
+
+.news {
+
+  ul{
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  li{
+    border-bottom: 1px solid gray;
+  }
+}
+
+
+
+

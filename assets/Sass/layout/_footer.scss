@@ -1,0 +1,24 @@
+@use "../foundation/variable" as v;
+
+
+
+footer{
+
+  background-color: v.$bgc-blue;
+  padding: 40px 0 37px;
+  text-align: center;
+  color: #fff;
+
+
+  img{
+    display: block;
+    margin: 0 auto 22px ;
+
+  }
+}
+
+.copy{
+  margin-top: 34px;
+  font-size: 11px;
+  color: #AEB6C7;
+}

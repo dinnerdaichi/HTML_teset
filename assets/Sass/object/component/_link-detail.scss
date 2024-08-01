@@ -1,0 +1,24 @@
+@use "../../foundation/variable" as v;
+
+
+.link__detail{
+display: block;
+  width: 240px;
+  height: 40px;
+  margin: 32px auto 0;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid v.$color-font-base;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  span{
+    margin-right: 16px;
+  }
+
+ img{
+  width: 5px;
+  height: 10px;
+ }
+}
